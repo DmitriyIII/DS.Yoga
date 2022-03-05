@@ -1,0 +1,124 @@
+.intro_ticket {
+  background-image: url("../img/tickets.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding: 150px 0;
+}
+.ticket_title {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1;
+  color: #fff;
+}
+
+/* Price */
+.price {
+  background-image: url("../img/price.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding: 90px 15px;
+}
+.price_inner {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.price_item {
+  max-width: 30%;
+  text-align: center;
+  font-weight: 500;
+  padding: 60px 20px;
+  border: 2px solid #ffe3a1;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+.price_item:hover,
+.price_item:active {
+  border-color: #9482ac;
+  background: #2b2633;
+}
+.price_title {
+  color: #fff;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+.item_price {
+  margin-bottom: 40px;
+}
+.price_list {
+  color: #ffdd8d;
+  font-size: 48px;
+}
+.names {
+  display: block;
+  color: #9482ac;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.item_text {
+  display: block;
+  font-size: 14px;
+  color: #939393;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+.pay {
+  color: #ffdd8d;
+  font-size: 16px;
+  font-weight: 500;
+  width: fit-content;
+  text-transform: uppercase;
+  position: relative;
+  transition: all 0.2s;
+}
+.pay:hover {
+  color: #b4a7c5;
+  border-bottom: 1px solid #b4a7c5;
+}
+
+/* Contact */
+.contact {
+  padding: 100px 0;
+}
+.contact_ticket {
+  background-image: url("../img/contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.contact_inner {
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  padding: 0 15px;
+}
+.contact_info {
+  padding: 0 15px;
+  width: 50%;
+}
+.information {
+  line-height: 2;
+}
+.work {
+  border: 3px solid #ffdd8d;
+  border-radius: 30px;
+  padding: 30px 55px 40px 45px;
+}
+.section-title h5.suptitle.purpl {
+  margin-bottom: 10px;
+}
+.pos_time {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
