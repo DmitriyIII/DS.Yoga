@@ -27,12 +27,21 @@
     <header class="header">
       <div class="container">
         <div class="header_inner">
-          <nav class="header_nav">
-            <a href="index.html" class="nav_link">Главная</a>
-            <a href="tickets.html" class="nav_link">Абонементы</a>
-            <a href="" class="logo"><img src="img/logo.png" alt="" /></a>
-            <a href="aboutUs.html" class="nav_link">О нас</a>
-            <a href="contact.html" class="nav_link">Контанты</a>
+          <input id="menu" type="checkbox">
+          <label class="btn_menu" for="menu">
+              <span class="line"></span>
+          </label>
+          <div class="ico">
+            <a href="" class="logo"><img src="img/logo.png" alt="" class="yoga ico_y"/></a>
+              <img src="img/lotus.png" alt="" class="lotus ico_l">
+          </div>
+          <nav class="nav">
+              <a href="index.html" class="nav_link">Главная</a>
+              <a href="tickets.html" class="nav_link">Абонементы</a>
+              <a href="" class="logo non"><img src="img/logo.png" alt="" class="yoga"/></a>
+                <img src="img/lotus.png" alt="" class="lotus">
+              <a href="aboutUs.html" class="nav_link">О нас</a>
+              <a href="contact.html" class="nav_link">Контанты</a>
           </nav>
         </div>
       </div>
@@ -91,30 +100,25 @@
               <img src="img/iyengar.svg" alt="" class="icon" />
               <h4 class="point_title">Йога Айенгара</h4>
               <p class="point_text">
-                Йога - это не тренировка, это работа. И точка духовной практики,
-                чтобы мы научились открывать наши сердца и сосредоточенность,
-                наше осознание. Чтобы мы могли знать, то что мы уже знаем и быть
-                теми, кем уже являемся.
+                Йога Айенгара - это стиль хатха-йоги, основанный на физическом выравнивании тела в позах.
+                Эта разновидность йоги рекомендуется тем, кто имеет какие-либо проблемы со здоровьем,
+                так как она практически не имеет противопоказаний.
               </p>
             </div>
             <div class="point">
               <img src="img/ashtanga.svg" alt="" class="icon" />
               <h4 class="point_title">Аштанга</h4>
               <p class="point_text">
-                Йога - это не тренировка, это работа. И точка духовной практики,
-                чтобы мы научились открывать наши сердца и сосредоточенность,
-                наше осознание. Чтобы мы могли знать, то что мы уже знаем и быть
-                теми, кем уже являемся.
+                Аштанга-йога – это очень динамичная и требовательная практика, которая синхронизирует дыхание с набором поз.
+                Цель этого энергичного вида йоги – очистить организм и помочь ему избавиться от токсинов.
               </p>
             </div>
             <div class="point">
               <img src="img/prenatal.svg" alt="" class="icon" />
               <h4 class="point_title">Пренатальная йога</h4>
               <p class="point_text">
-                Йога - это не тренировка, это работа. И точка духовной практики,
-                чтобы мы научились открывать наши сердца и сосредоточенность,
-                наше осознание. Чтобы мы могли знать, то что мы уже знаем и быть
-                теми, кем уже являемся.
+                Пренатальная йога — это йога для беременных. Она помогает женщинам оставаться физически
+                и психологически здоровыми на протяжении всей беременности и после нее.
               </p>
             </div>
           </div>
@@ -132,10 +136,13 @@
               <span class="names">По месяцам</span>
             </div>
             <p class="item_text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea
-              recusandae ullam impedit commodi beatae culpa quod alias! Commodi
-              hic molestias esse beatae incidunt nostrum quisquam sit, ducimus
-              sapiente neque. Veniam!
+              - Посещения в любой день недели с 9:00 до 20:00
+            </p>
+            <p class="item_text">
+              - Посещения любых групповых и индивидуальных занятий
+            </p>
+            <p class="item_text">
+              - Количество занятий в месяц не ограниченно
             </p>
             <a class="pay" href="#">Приобрести сейчас</a>
           </div>
@@ -146,10 +153,13 @@
               <span class="names">По месяцам</span>
             </div>
             <p class="item_text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea
-              recusandae ullam impedit commodi beatae culpa quod alias! Commodi
-              hic molestias esse beatae incidunt nostrum quisquam sit, ducimus
-              sapiente neque. Veniam!
+              - Можете посещать наш зал только по будним дням с 9:00 до 17:00
+            </p>
+            <p class="item_text">
+              - Посещения только групповых занятий
+            </p>
+            <p class="item_text">
+              - Количество занятий на месяц ограничено (10 занятий)
             </p>
             <a class="pay" href="#">Приобрести сейчас</a>
           </div>
@@ -160,10 +170,13 @@
               <span class="names">По месяцам</span>
             </div>
             <p class="item_text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea
-              recusandae ullam impedit commodi beatae culpa quod alias! Commodi
-              hic molestias esse beatae incidunt nostrum quisquam sit, ducimus
-              sapiente neque. Veniam!
+              - Посещения только в будний день с 9:00 до 20:00
+            </p>
+            <p class="item_text">
+              - Посещения любых групповых занятий и любых индивидуальных
+            </p>
+            <p class="item_text">
+              - Количество занятий на месяц ограниченно (15 занятий)
             </p>
             <a class="pay" href="#">Приобрести сейчас</a>
           </div>
@@ -181,26 +194,26 @@
 
     <footer class="footer">
       <div class="container">
-        <div class="footer_inner">
-          <img src="img/footer_logo.png" alt="" />
-          <p class="footer_text">
-            «Наше поняте физической подготовки - это достижение и поддержание
-            единообразно развитого тела со здоровым умом, способного
-            естественно, легко и удовлетворительно выполнять многочисленные
-            повседневные задачи со спонтанным энтузиазмом и удовольствием».
-          </p>
-          <div class="contacts"></div>
-          <span class="post"> 2022 © Все права защищены </span>
-        </div>
         <div class="forms">
           <h3 class="form_title">Свяжитесь с нами</h3>
           <form action="#" class="form">
             <input type="text" placeholder="Имя" class="input_fild" />
             <input type="text" placeholder="Фамилия" class="input_fild" />
             <input type="email" placeholder="Почта" class="input_fild" />
-            <textarea placeholder="Сообщение" class="textarea"></textarea>
+            <textarea placeholder="Сообщение" class="input_fild textarea"></textarea>
             <button type="submit" class="btn sub yllow">Отправить</button>
           </form>
+        </div>
+        <div class="footer_inner">
+          <img src="img/footer_logo.png" alt="" />
+          <p class="footer_text">
+            «Наше понятие физической подготовки - это достижение и поддержание
+            единообразно развитого тела со здоровым умом, способного
+            естественно, легко и удовлетворительно выполнять многочисленные
+            повседневные задачи со спонтанным энтузиазмом и удовольствием».
+          </p>
+          <div class="contacts"></div>
+          <span class="post"> 2022 © Все права защищены </span>
         </div>
       </div>
     </footer>

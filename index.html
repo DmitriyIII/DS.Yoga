@@ -27,12 +27,21 @@
     <header class="header">
       <div class="container">
         <div class="header_inner">
-          <nav class="header_nav">
-            <a href="index.html" class="nav_link">Главная</a>
-            <a href="tickets.html" class="nav_link">Абонементы</a>
-            <a href="" class="logo"><img src="img/logo.png" alt="" /></a>
-            <a href="aboutUs.html" class="nav_link">О нас</a>
-            <a href="contact.html" class="nav_link">Контанты</a>
+          <input id="menu" type="checkbox">
+          <label class="btn_menu" for="menu">
+              <span class="line"></span>
+          </label>
+          <div class="ico">
+            <a href="" class="logo"><img src="img/logo.png" alt="" class="yoga ico_y"/></a>
+              <img src="img/lotus.png" alt="" class="lotus ico_l">
+          </div>
+          <nav class="nav">
+              <a href="index.html" class="nav_link">Главная</a>
+              <a href="tickets.html" class="nav_link">Абонементы</a>
+              <a href="" class="logo non"><img src="img/logo.png" alt="" class="yoga"/></a>
+                <img src="img/lotus.png" alt="" class="lotus">
+              <a href="aboutUs.html" class="nav_link">О нас</a>
+              <a href="contact.html" class="nav_link">Контанты</a>
           </nav>
         </div>
       </div>
@@ -107,20 +116,20 @@
           </h2>
           <div class="carts">
             <div class="cart">
+              <img src="img/cart1.jpg" alt="" class="cart_img" />
               <div class="description">
-                <img src="img/cart1.jpg" alt="" class="cart_img" />
                 <h5 class="cart_title suptitle purpl">Ваша внутренняя Ци</h5>
                 <p class="text">
                   Любая йога — это в первую очередь духовная практика, целью
-                  которой является просветление, слияние с Высшим, а путь к
-                  этому проходит через самопознание, что достигается через
-                  практику основных ступеней йоги.
+                  которой является просветление, а путь к
+                  этому проходит через самопознание, дочтигаемое
+                  практикой основных ступеней йоги.
                 </p>
               </div>
             </div>
             <div class="cart">
+              <img src="img/cart2.jpg" alt="" class="cart_img" />
               <div class="description">
-                <img src="img/cart2.jpg" alt="" class="cart_img" />
                 <h5 class="cart_title suptitle purpl">Ваша внутренняя Ци</h5>
                 <p class="text">
                   Йога не вылечивает стресс, она нейтрализует его посредством
@@ -131,8 +140,8 @@
               </div>
             </div>
             <div class="cart">
+              <img src="img/cart3.jpg" alt="" class="cart_img" />
               <div class="description">
-                <img src="img/cart3.jpg" alt="" class="cart_img" />
                 <h5 class="cart_title suptitle purpl">Ваша внутренняя Ци</h5>
                 <p class="text">
                   Йога означает союз – союз тела с сознанием и сознания с душой.
@@ -213,26 +222,26 @@
 
     <footer class="footer">
       <div class="container">
-        <div class="footer_inner">
-          <img src="img/footer_logo.png" alt="" />
-          <p class="footer_text">
-            «Наше поняте физической подготовки - это достижение и поддержание
-            единообразно развитого тела со здоровым умом, способного
-            естественно, легко и удовлетворительно выполнять многочисленные
-            повседневные задачи со спонтанным энтузиазмом и удовольствием».
-          </p>
-          <div class="contacts"></div>
-          <span class="post"> 2022 © Все права защищены </span>
-        </div>
         <div class="forms">
           <h3 class="form_title">Свяжитесь с нами</h3>
           <form action="#" class="form">
             <input type="text" placeholder="Имя" class="input_fild" />
             <input type="text" placeholder="Фамилия" class="input_fild" />
             <input type="email" placeholder="Почта" class="input_fild" />
-            <textarea placeholder="Сообщение" class="textarea"></textarea>
+            <textarea placeholder="Сообщение" class="input_fild textarea"></textarea>
             <button type="submit" class="btn sub yllow">Отправить</button>
           </form>
+        </div>
+        <div class="footer_inner">
+          <img src="img/footer_logo.png" alt="" />
+          <p class="footer_text">
+            «Наше понятие физической подготовки - это достижение и поддержание
+            единообразно развитого тела со здоровым умом, способного
+            естественно, легко и удовлетворительно выполнять многочисленные
+            повседневные задачи со спонтанным энтузиазмом и удовольствием».
+          </p>
+          <div class="contacts"></div>
+          <span class="post"> 2022 © Все права защищены </span>
         </div>
       </div>
     </footer>

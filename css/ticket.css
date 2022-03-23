@@ -63,25 +63,47 @@
   margin-top: 10px;
 }
 .item_text {
-  display: block;
   font-size: 14px;
   color: #939393;
   font-weight: 500;
   line-height: 30px;
-  margin-bottom: 25px;
+  text-align: left;
+
 }
 .pay {
+  margin: 0 auto;
+  margin-top: 25px;
+  display: block;
   color: #ffdd8d;
   font-size: 16px;
   font-weight: 500;
   width: fit-content;
+
   text-transform: uppercase;
-  position: relative;
   transition: all 0.2s;
 }
 .pay:hover {
   color: #b4a7c5;
   border-bottom: 1px solid #b4a7c5;
+}
+@media (max-width: 768px) {
+  .price {
+    padding-bottom: 50px;
+  }
+  .price_inner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .price_item {
+    max-width: 530px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 576px) {
+  .ticket_title {
+    font-size: 43px;
+  }
 }
 
 /* Contact */
@@ -110,9 +132,11 @@
   line-height: 2;
 }
 .work {
+  width: 320px;
+  height: fit-content;
   border: 3px solid #ffdd8d;
   border-radius: 30px;
-  padding: 30px 55px 40px 45px;
+  padding: 30px 35px 40px 35px;
 }
 .section-title h5.suptitle.purpl {
   margin-bottom: 10px;
@@ -121,4 +145,97 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
+}
+@media (max-width: 576px) {
+  .contact_inner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact_info {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+
+/* About Us */
+.about_ticket {
+  background-image: url("../img/aboutUs.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.aboutUs {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.about_img {
+  max-width: 100%;
+}
+.aboutis {
+  background-image: url("../img/counter.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 70px 0;
+}
+.team {
+  text-align: center;
+}
+.pos {
+  padding: 70px 0;
+  position: unset;
+}
+.pointsUs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  color: #ffe3a1;
+}
+.pointUs {
+  width: 25%;
+  padding: 0 10px;
+  margin-bottom: 30px;
+  max-width: 400px;
+  text-align: center;
+}
+.descriptionUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fff;
+  height: 30%;
+  box-shadow: 0 10px 20px -5px #c6c1c1;
+}
+@media (max-width: 768px) {
+  .pointsUs {
+    text-align: center;
+    justify-content: space-around;
+  }
+  .pointUs {
+    width: 45%;
+  }
+  .aboutUs {
+    width: 50%;
+  }
+}
+@media (max-width: 576px) {
+  .pointsUs {
+    flex-direction: column;
+  }
+  .pointUs {
+    width: 100%;
+  }
+  .aboutUs {
+    width: 70%;
+  }
+
 }

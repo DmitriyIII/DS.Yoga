@@ -3,6 +3,7 @@
 *:before, *:after { box-sizing: border-box; }
 :focus, :active { outline: none; }
 a:focus, a:active { outline: none; }
+p,a { line-height: 1.5; }
 a, a:visited, a:hover { text-decoration: none; }
 header, nav, aside, footer { display: block; }
 html, body { scroll-behavior: smooth; height: 100%; width: 100%;

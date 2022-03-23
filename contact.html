@@ -27,12 +27,21 @@
     <header class="header">
       <div class="container">
         <div class="header_inner">
-          <nav class="header_nav">
-            <a href="index.html" class="nav_link">Главная</a>
-            <a href="tickets.html" class="nav_link">Абонементы</a>
-            <a href="" class="logo"><img src="img/logo.png" alt="" /></a>
-            <a href="aboutUs.html" class="nav_link">О нас</a>
-            <a href="contact.html" class="nav_link">Контанты</a>
+          <input id="menu" type="checkbox">
+          <label class="btn_menu" for="menu">
+              <span class="line"></span>
+          </label>
+          <div class="ico">
+            <a href="" class="logo"><img src="img/logo.png" alt="" class="yoga ico_y"/></a>
+              <img src="img/lotus.png" alt="" class="lotus ico_l">
+          </div>
+          <nav class="nav">
+              <a href="index.html" class="nav_link">Главная</a>
+              <a href="tickets.html" class="nav_link">Абонементы</a>
+              <a href="" class="logo non"><img src="img/logo.png" alt="" class="yoga"/></a>
+                <img src="img/lotus.png" alt="" class="lotus">
+              <a href="aboutUs.html" class="nav_link">О нас</a>
+              <a href="contact.html" class="nav_link">Контанты</a>
           </nav>
         </div>
       </div>
@@ -54,49 +63,44 @@
             <h5 class="suptitle purpl">Контактная информация</h5>
             <h3 class="title ct">Свяжитесь с нами</h3>
             <p class="reviews_text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae,
-              delectus. Incidunt nemo sit aliquid dolorum illum nisi nihil
-              libero, aliquam tempora corrupti. Ratione veritatis incidunt omnis
-              tempore reiciendis eos sit!
+              Свяжитесь с нами, мы будем разы ответить на все интересующие вас вопросы
+              и поможем с вашими возникшими проблемами на нашем сайте.
             </p>
-            <h3 class="title ct info">Информация</h3>
+            <h3 class="title ct info">Контакты</h3>
             <p class="information">
-              Первый <br />
-              Второй <br />
-              Третий
+              Номер телефона: +7 (961) 889 97-02 <br/>
+              E-mail: yoga.studio@mail.ru <br/>
             </p>
           </div>
-          <div class="">
-            <div class="work">
-              <div class="section-title">
-                <h5 class="suptitle purpl">Часы</h5>
-                <h2 class="title ct">Расписание</h2>
-              </div>
-              <ul>
-                <li class="pos_time">
-                  <span>Понедельник</span
-                  ><span class="time">10:30 - 19:00</span>
-                </li>
-                <li class="pos_time">
-                  <span>Вторник</span><span class="time">10:30 - 19:00</span>
-                </li>
-                <li class="pos_time">
-                  <span>Среда</span><span class="time">10:30 - 19:00</span>
-                </li>
-                <li class="pos_time">
-                  <span>Четверг</span><span class="time">10:30 - 19:00</span>
-                </li>
-                <li class="pos_time">
-                  <span>Пятница</span><span class="time">10:30 - 19:00</span>
-                </li>
-                <li class="pos_time">
-                  <span>Суббота</span><span class="time">10:30 - 14:00</span>
-                </li>
-                <li class="pos_time">
-                  <span>Воскресенье</span><span class="time">закрыто</span>
-                </li>
-              </ul>
+          <div class="work">
+            <div class="section-title">
+              <h5 class="suptitle purpl">Часы</h5>
+              <h2 class="title ct">Расписание</h2>
             </div>
+            <ul>
+              <li class="pos_time">
+                <span>Понедельник</span
+                ><span class="time">10:30 - 19:00</span>
+              </li>
+              <li class="pos_time">
+                <span>Вторник</span><span class="time">10:30 - 19:00</span>
+              </li>
+              <li class="pos_time">
+                <span>Среда</span><span class="time">10:30 - 19:00</span>
+              </li>
+              <li class="pos_time">
+                <span>Четверг</span><span class="time">10:30 - 19:00</span>
+              </li>
+              <li class="pos_time">
+                <span>Пятница</span><span class="time">10:30 - 19:00</span>
+              </li>
+              <li class="pos_time">
+                <span>Суббота</span><span class="time">10:30 - 14:00</span>
+              </li>
+              <li class="pos_time">
+                <span>Воскресенье</span><span class="time">закрыто</span>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -124,26 +128,26 @@
 
     <footer class="footer">
       <div class="container">
-        <div class="footer_inner">
-          <img src="img/footer_logo.png" alt="" />
-          <p class="footer_text">
-            «Наше поняте физической подготовки - это достижение и поддержание
-            единообразно развитого тела со здоровым умом, способного
-            естественно, легко и удовлетворительно выполнять многочисленные
-            повседневные задачи со спонтанным энтузиазмом и удовольствием».
-          </p>
-          <div class="contacts"></div>
-          <span class="post"> 2022 © Все права защищены </span>
-        </div>
         <div class="forms">
           <h3 class="form_title">Свяжитесь с нами</h3>
           <form action="#" class="form">
             <input type="text" placeholder="Имя" class="input_fild" />
             <input type="text" placeholder="Фамилия" class="input_fild" />
             <input type="email" placeholder="Почта" class="input_fild" />
-            <textarea placeholder="Сообщение" class="textarea"></textarea>
+            <textarea placeholder="Сообщение" class="input_fild textarea"></textarea>
             <button type="submit" class="btn sub yllow">Отправить</button>
           </form>
+        </div>
+        <div class="footer_inner">
+          <img src="img/footer_logo.png" alt="" />
+          <p class="footer_text">
+            «Наше понятие физической подготовки - это достижение и поддержание
+            единообразно развитого тела со здоровым умом, способного
+            естественно, легко и удовлетворительно выполнять многочисленные
+            повседневные задачи со спонтанным энтузиазмом и удовольствием».
+          </p>
+          <div class="contacts"></div>
+          <span class="post"> 2022 © Все права защищены </span>
         </div>
       </div>
     </footer>
